@@ -34,12 +34,12 @@ public class Role {
         this.type = type;
     }
 
-    public User getUser() {
-        return user;
+    public int getUser() {
+        return user.id;
     }
 
     public void setUser(User user) {
-        this.user = user;
+        this.user.id = user.id;
     }
 
     public String getDesciption() {

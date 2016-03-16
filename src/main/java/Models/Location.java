@@ -52,12 +52,12 @@ public class Location {
         this.address = address;
     }
 
-    public User getUser() {
-        return user;
+    public int getUser() {
+        return user.id;
     }
 
     public void setUser(User user) {
-        this.user = user;
+        this.user.id = user.id;
     }
     
     

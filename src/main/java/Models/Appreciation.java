@@ -5,6 +5,8 @@
  */
 package Models;
 
+// Testting c9.io
+
 /**
  *
  * @author kevin
@@ -35,20 +37,20 @@ public class Appreciation {
         this.id = id;
     }
 
-    public Product getProduct() {
-        return product;
+    public int getProduct() {
+        return product.id;
     }
 
     public void setProduct(Product product) {
-        this.product = product;
+        this.product.id = product.id;
     }
 
-    public User getUser() {
-        return user;
+    public int getUser() {
+        return user.id;
     }
 
     public void setUser(User user) {
-        this.user = user;
+        this.user.id = user.id;
     }
 
     public int getRank() {

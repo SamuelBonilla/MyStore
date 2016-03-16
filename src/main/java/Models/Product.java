@@ -76,20 +76,20 @@ public class Product {
         this.brand = brand;
     }
 
-    public User getUser() {
-        return user;
+    public int getUser() {
+        return user.id;
     }
 
     public void setUser(User user) {
-        this.user = user;
+        this.user.id = user.id;
     }
 
-    public Sub_Category getSub_category() {
-        return sub_category;
+    public int getSub_category() {
+        return sub_category.id;
     }
 
     public void setSub_category(Sub_Category sub_category) {
-        this.sub_category = sub_category;
+        this.sub_category.id = sub_category.id;
     }
 
     public String getBeen() {

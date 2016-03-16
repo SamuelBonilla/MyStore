@@ -11,20 +11,23 @@ package Models;
  */
 public class Sub_Category extends Category{
 
-    private int id_Category;
+    private Category category;
     
     public Sub_Category(int id, String name, String description, int id_Category) {
-        super(id, name, description);
+        super(id_Category, name, description);
         this.id_Category = id_Category;
     }
 
     public int getId_Category() {
-        return id_Category;
+        return category.id;
     }
 
-    public void setId_Category(int id_Category) {
-        this.id_Category = id_Category;
+    public void setId_Category(Category category) {
+        this.category.id = category.id;
     }
+    
+   
+   
     
     
 }
